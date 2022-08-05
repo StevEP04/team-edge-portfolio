@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* start of the home page */
+.header{
+    width: 100%;
+    height: 100vh;
+    background: #47474a;
+    border-bottom: 1px black solid;
+    padding: 0 5.5%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0px 10px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e34234;
+}
+.logo{
+    font-size: x-large;
+    cursor: pointer;
+}
+nav ul {
+    flex: 1;
+    text-align: right;
+    padding-right: 40px;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+nav ul li a:hover{
+    color: #E62D1C;
+    border-bottom: 1px solid #e34234;
+}
+.text{
+    margin-top: 15%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+.text h1{
+    font-size: 50px;
+    line-height: 90px;
+}
+.text p{
+    font-size: 20px;
+}
+.text a{
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #e34234;
+    border: 1px solid #e34234;
+    border-radius: 30px;
+    color: black;
+    padding: 10px 30px;
+}
+.text a:hover{
+    border-color: #e34234;
+    background-color: black;
+    color: #e34234;
+}
+#homepage_image{
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+}
+/* End of home page */
+
+
+/* This is the beginning of box 1 */
+.home_box1{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    border-bottom: 1px black solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.home_box1 .myself h1{
+    border-bottom: 2px solid #e34234;
+    margin-bottom: 5px;
+}
+.row_box1{
+    margin: 15px;
+}
+
+
+/* End of box 1 */
+.home_box2{
+    width: 100%;
+    height: 100vh;
+    background: #47474a;
+    border-bottom: 1px black solid;
+}
+.my_foot{
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+}
